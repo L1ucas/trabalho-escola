@@ -11,23 +11,25 @@ public class trabalho2 {
 		System.out.println("3 - Em um loop de procrastinação");
 		System.out.print("Digite uma opção: ");
 		int input = obter.nextInt();
+		System.out.print("Eu posso te chamar de algo? ");
+		String usuario = obter.next();
+		
 		int input2;
 		String input3;
 		switch(input) {
 		case 1:
 			System.out.print("Certo, em uma escala de 1-10, como você se sente quando acorda de manhã?");
 			input2 = obter.nextInt();
-			if(input2 <= 3) {
-				System.out.print("Por quanto tempo você se sente assim?");
-				input3 = obter.next();
-				System.out.println("");
-				System.out.println("É melhor se consultar com um psicólogo, mas aqui são algumas dicas para você");
-				System.out.println("Lembre-se que depressão é uma doença que pode ser vencida, mesmo que pareça tudo sem saída, você pode mudar o jeito que você vê o mundo");
-				System.out.println("- Converse um pouco com seus amigos. Conversar é uma das melhores formas de lidar com problemas");
-				System.out.println("- Cuide bem do seu corpo. Pratique um pouco de exercício quando você conseguir.");
-				System.out.println("- Durma bem. O sono e o humor andam lado a lado.");
-				System.out.println("- Lembre de consultar um psicólogo");
-			}
+			System.out.print("Por quanto tempo você se sente assim "+usuario+"? ");
+			input3 = obter.next();
+			System.out.println("");
+			System.out.println("É melhor se consultar com um psicólogo "+usuario+", mas aqui são algumas dicas para você");
+			System.out.println("Lembre-se que depressão é uma doença que pode ser vencida, mesmo que pareça tudo sem saída, você pode mudar o jeito que você vê o mundo");
+			System.out.println("- Converse um pouco com seus amigos. Conversar é uma das melhores formas de lidar com problemas");
+			System.out.println("- Cuide bem do seu corpo. Pratique um pouco de exercício quando você conseguir.");
+			System.out.println("- Durma bem. O sono e o humor andam lado a lado.");
+			System.out.println("- Lembre de consultar um psicólogo");
+			
 			break;
 		case 2:
 			System.out.println("Certo, em uma escala de 1-10, como você se sente quando acorda de manhã? ");
@@ -40,12 +42,12 @@ public class trabalho2 {
 			input3 = obter.next();
 			System.out.print("Você tem ideias obsessivas? ");
 			input3 = obter.next();
-			System.out.print("Não para de pensar em hipóteses sobre o que poderá (ou não) acontecer? ");
+			System.out.print("Você não para de pensar em hipóteses sobre o que poderá (ou não) acontecer? ");
 			input3 = obter.next();
 			System.out.print("Essa sequência de pensamentos tem algum efeito positivo ou serve apenas para piorar a situação? ");
 			input3 = obter.next();
 			System.out.println("");
-			System.out.println("É melhor se consultar com um psicólogo, mas aqui são algumas dicas para você");
+			System.out.println("É melhor se consultar com um psicólogo "+usuario+", mas aqui são algumas dicas para você");
 			System.out.println("Lembre-se que a ansiedade não é um resultado de preguiça ou de falta de interesse. É uma resposta de medo do seu corpo de coisas que acontecem com você");
 			System.out.println("- Converse com amigos. Fale com eles sobre coisas que você gosta.");
 			System.out.println("- Cuide bem do seu corpo. O exercício ajuda a liberar sua ansiedade");
@@ -58,14 +60,14 @@ public class trabalho2 {
 			input3 = obter.next();
 			
 			System.out.println("");
-			System.out.println("Procrastinação é algo normal, não é preguiça e acontece com todo mundo, talvez você esteja com medo de terminar uma tarefa importante ou sem interesse, é totalmente normal.");
+			System.out.println("Procrastinação é algo normal "+usuario+", não é preguiça e acontece com todo mundo, talvez você esteja com medo de terminar uma tarefa importante ou sem interesse, é totalmente normal.");
 			System.out.println("Mas aqui algumas dicas para te ajudarem:");
-			System.out.println("1 - Se convença que você pode fazer isso. Você pode vencer a procrastinação");
-			System.out.println("2 - Divida uma tarefa grande em tarefas simples. Por exemplo, ao invés de dizer \"Vou fazer esse trabalho da escola em até 3 semanas\" fale \"Vou escolher 3 pontos principais, depois vou escolher uma pessoa ou um país para esse trabalho\"");
-			System.out.println("3 - Não passe muito tempo planejando. Não tente passar 1 hora decidindo o que é mais importante pra hoje, passe 1 hora realmente fazendo essas coisas importantes");
-			System.out.println("4 - Não passe muito tempo em uma tarefa, faça uma coisa por vez em pequenos intervalos de tempo, como 15 minutos ao invés de 2 horas");
-			System.out.println("5 - Não deixe sua mente de carregar pra outras tarefas menos importantes, termine o que é importante *agora*");
-			System.out.println("6 - Não lute contra as distrações, *elimine* as distrações. Se o YouTube é uma distração, tire ele do celular. Se seu celular é uma distração, remova ele da sua mesa e do seu quarto");
+			System.out.println("- Se convença que você pode fazer isso. Você pode vencer a procrastinação");
+			System.out.println("- Divida uma tarefa grande em tarefas simples. Por exemplo, ao invés de dizer \"Vou fazer esse trabalho da escola em até 3 semanas\" fale \"Vou escolher 3 pontos principais, depois vou escolher uma pessoa ou um país para esse trabalho\"");
+			System.out.println("- Não passe muito tempo planejando. Não tente passar 1 hora decidindo o que é mais importante pra hoje, passe 1 hora realmente fazendo essas coisas importantes");
+			System.out.println("- Não passe muito tempo em uma tarefa, faça uma coisa por vez em pequenos intervalos de tempo, como 15 minutos ao invés de 2 horas");
+			System.out.println("- Não deixe sua mente de carregar pra outras tarefas menos importantes, termine o que é importante *agora*");
+			System.out.println("- Não lute contra as distrações, *elimine* as distrações. Se o YouTube é uma distração, tire ele do celular. Se seu celular é uma distração, remova ele da sua mesa e do seu quarto");
 			
 		}
 		
