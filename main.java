@@ -28,6 +28,7 @@ public class trabalho2 {
 			System.out.println("- Cuide bem do seu corpo. Pratique um pouco de exercício quando você conseguir.");
 			System.out.println("- Durma bem. O sono e o humor andam lado a lado.");
 			System.out.println("- Lembre de consultar um psicólogo");
+			System.out.println("- Caso você esteja com pensamentos suicidas, lembre-se de ligar para 188");
 			
 			break;
 		case 2:
@@ -51,6 +52,7 @@ public class trabalho2 {
 			System.out.println("- Converse com amigos. Fale com eles sobre coisas que você gosta.");
 			System.out.println("- Cuide bem do seu corpo. O exercício ajuda a liberar sua ansiedade");
 			System.out.println("- Se algo em específico te deixa ansioso, algo chamado gatilho, tente respirar fundo e fale com alguém para te ajudar a lidar com esse gatilho.");
+			System.out.println("- Caso você esteja com pensamentos suicidas, lembre-se de ligar para 188");
 			break;
 		case 3:
 			System.out.println("Certo, em uma escala de 1-10, como você se sente negativamente com procrastinação? ");
